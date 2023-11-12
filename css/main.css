@@ -1,0 +1,31 @@
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 1228px;
+  margin: 0 auto;
+}
+
+.forms-wrapper{
+  border-top: 9px dashed black;
+  margin-top: 97px;
+  padding: 20px 3px;
+}
+
+.forms-wrapper-title{
+  position: absolute;
+  top: 76px;
+  font-size: 26px;
+  left: calc(50% - 114px);
+  background-color: #fff;
+  display: inline-block;
+  text-align: center;
+  padding: 3px 20px;
+}
