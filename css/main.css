@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5, h6, p{
   width: 1110px;
   display: flex;
   gap: 9px;
+  align-items: center;
   /* background-color: aqua; */
   justify-content: flex-end;
 }
@@ -71,10 +72,42 @@ h1, h2, h3, h4, h5, h6, p{
   text-align: center;
   border: 2px solid black;
   font-size: 26px;
-  padding: 7px 3px;
+  padding: 6px 3px;
   outline: none;
+}
+.forms-wrapper-input::-webkit-inner-spin-button,
+.forms-wrapper-input::-webkit-outer-spin-button {
+   -webkit-appearance: none;
 }
 .forms-wrapper-input:focus{
   border: 2px solid green;
   box-shadow: 0 0 2px 1px green;
+}
+.form-wrapper-inputGroup-text{
+  font-size: 22.7px;
+  text-align: right;
+}
+
+.form-wrapper-inputGroup-text-god{
+  width: 72px;
+}
+.form-wrapper-inputGroup-text-pol{
+  white-space: nowrap;
+  width: 196px;
+}
+
+.form-wrapper-inputGroup-text-jenskiy{
+  white-space: nowrap;
+  width: 115px;
+}
+
+.forms-wrapper-input-jenskiy{
+  margin-right: 82px;
+}
+
+.forms-wrapper-label2{
+  margin: 22px 0 15px;
+}
+.forms-wrapper-subTitle2{
+  text-align: center;
 }
