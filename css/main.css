@@ -42,8 +42,13 @@ h1, h2, h3, h4, h5, h6, p{
   justify-content: space-between;
   margin-bottom: 8px;
 }
+
+.forms-wrapper-label1{
+  margin-bottom: 20px;
+}
+
 .forms-wrapper-label-span{
-  font-size: 23px;
+  font-size: 24px;
   gap: 23px;
   font-weight: 500;
   margin-right: 20px;
@@ -54,8 +59,9 @@ h1, h2, h3, h4, h5, h6, p{
 .form-wrapper-inputGroup{
   width: 1110px;
   display: flex;
-  /* gap: 5px; */
-  justify-content: space-between;
+  gap: 9px;
+  /* background-color: aqua; */
+  justify-content: flex-end;
 }
 
 
