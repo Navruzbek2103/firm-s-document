@@ -231,3 +231,32 @@ label{
 .forms-wrapper-input-last{
   margin-right: 40px;
 }
+
+.form-wrapper-inputGroup3{
+  justify-content: flex-start;
+}
+
+.form-wrapper-inputGroup3 .forms-wrapper-input-home2{
+  width: 323px;
+}
+
+input{
+  background-color: #fff;
+}
+
+.forms-wrapper-subTitle{
+  font-weight: 500;
+}
+.forms-wrapper-subTitle2{
+  margin: 0;
+  text-align: left;
+  margin-bottom: 6px;
+}
+
+.forms-wrapper-endTitle{
+  font-weight: 700;
+  margin: 24px auto;
+  width: 99%;
+  font-size: 25px;
+  text-align: center;
+}
