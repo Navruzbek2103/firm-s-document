@@ -88,26 +88,146 @@ h1, h2, h3, h4, h5, h6, p{
   text-align: right;
 }
 
-.form-wrapper-inputGroup-text-god{
-  width: 72px;
-}
-.form-wrapper-inputGroup-text-pol{
-  white-space: nowrap;
-  width: 196px;
+.form-wrapper-inputGroup-text-month{
+    /* border: 1px solid red; */
+  width: 73px;
+
+  font-size: 22px !important;
 }
 
-.form-wrapper-inputGroup-text-jenskiy{
+.form-wrapper-inputGroup-text-year{
+  width: 72px;
+  /* border: 1px solid red; */
+
+}
+.form-wrapper-inputGroup-text-gender{
+  white-space: nowrap;
+  width: 196px;
+  /* border: 1px solid red; */
+
+}
+
+.form-wrapper-inputGroup-text-female{
   white-space: nowrap;
   width: 115px;
 }
 
-.forms-wrapper-input-jenskiy{
+.forms-wrapper-input-female{
   margin-right: 82px;
 }
 
 .forms-wrapper-label2{
   margin: 22px 0 15px;
+  /* border: 1px solid red; */
+
 }
+
+.forms-wrapper-label-place{
+  /* border: 1px solid red; */
+  align-items: flex-end;
+}
+
+.forms-wrapper-label-people{
+  /* border: 1px solid red; */
+  align-items: flex-start;
+}
+
 .forms-wrapper-subTitle2{
   text-align: center;
+  margin: 8px 0;
+  /* border: 1px solid red; */
+}
+
+.form-wrapper-inputGroup2{
+  width: 100%;
+
+}
+
+.form-wrapper-inputGroup-text-series{
+  width: 150px;
+}
+.forms-wrapperBox{
+  display: flex;
+}
+.forms-wrapper-left{
+  width: 527px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* border: 1px solid red; */
+}
+
+.forms-wrapper-left-title{
+  font-size: 24px;
+  /* width: 100%; */
+  text-align: center;
+  margin: 6px 0 5px;
+}
+
+.form-wrapper-inputGroup-left{
+  width: auto;
+}
+.form-wrapper-inputGroup-text-number{
+  width: 75px;
+  text-align: left;
+}
+.form-wrapper-inputGroup-text-secondMonth{
+  width: 74px;
+}
+
+.forms-wrapper-right{
+  width: 647px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 45px;
+}
+.forms-wrapper-right .forms-wrapper-left-title{
+  width: 515px;
+}
+.forms-wrapper-right-desc{
+  font-size: 23.8px;
+  margin-top: 6px;
+}
+.forms-wrapper-subText{
+  font-size: 24px;
+  margin: 4px 0;
+  font-weight: 500;
+}
+
+.forms-wrapper-label2{
+  /* border: 1px solid red; */
+  margin-bottom: 0;
+}
+
+.forms-wrapper-label3{
+  margin-bottom: 25px;
+}
+
+.forms-wrapper-input-home{
+  width: 282px;
+  padding-left: 0;
+  text-align: left;
+}
+label{
+  overflow: hidden;
+}
+.form-wrapper-inputGroup{
+  width: 100%;
+}
+.forms-wrapper-text1{
+  font-size: 24px;
+  width: 64px;
+  margin-right: 7px;
+  text-align: center;
+}
+.forms-wrapper-text2{
+  font-size: 24px;
+  width: 107px;
+  margin-right: 8px;
+  text-align: right;
+}
+
+.forms-wrapper-input-last{
+  margin-right: 40px;
 }
