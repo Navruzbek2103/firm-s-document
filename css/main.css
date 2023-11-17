@@ -165,7 +165,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 
 .form-wrapper-inputGroup-left{
-  width: auto;
+  justify-content: flex-start;
 }
 .form-wrapper-inputGroup-text-number{
   width: 75px;
@@ -247,7 +247,7 @@ input{
 .forms-wrapper-subTitle{
   font-weight: 500;
 }
-.forms-wrapper-subTitle2{
+.forms-wrapper-subTitle3{
   margin: 0;
   text-align: left;
   margin-bottom: 6px;
